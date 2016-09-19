@@ -32,6 +32,9 @@ public class Player {
 	}
 
 	public int getPosX() {
+		if (posX > 0) {
+			System.out.println("Get Pos X");
+		}
 		return posX;
 	}
 
