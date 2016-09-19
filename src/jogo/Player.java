@@ -32,8 +32,8 @@ public class Player {
 	}
 
 	public int getPosX() {
-		if (posY < -60) {
-			System.out.println("Conflitou!");
+		if (posX > 0) {
+			System.out.println("Get Pos X");
 		}
 		return posX;
 	}
